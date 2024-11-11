@@ -1,5 +1,21 @@
 *{
     text-align: center;
+    font-family: cursive;
+}
+body{
+    background: url(./img/body.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo{
+    background: #ababed;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 30px;
 }
 
 .eleccion{
@@ -25,12 +41,21 @@
     height: 70px;
     font-size: 30px;
     position: absolute;
+    background: #1a9547;
+    transition: 1s;
+    border-radius: 5px;
+}
+#buttonSi:hover{
+    background: #013615;
+    color: white;
 }
 #buttonNo{
     width: 100px;
     height: 70px;
     font-size: 30px;
     position: absolute;
+    background: #e1457e;
+    border-radius: 5px;
 }
 
 #feliction{
