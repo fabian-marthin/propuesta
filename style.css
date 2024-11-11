@@ -90,7 +90,9 @@ body{
 }
 
 @media (max-width: 480px) {
-    /* Estilos solo para dispositivos con pantalla de hasta 480px de ancho */
+    *{
+        font-family: emoji;
+    }
     #feliction h1{
         font-size: 10px;
     }
