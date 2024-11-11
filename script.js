@@ -1,13 +1,5 @@
 const feliction = document.getElementById("feliction");
 
-
-const buttonSi = document.getElementById("buttonSi");
-buttonSi.addEventListener("click", funcionSi);
-function funcionSi(){
-    feliction.style.display = "flex";
-    console.log("hoolaaa")
-}
-
 const buttonNo = document.getElementById("buttonNo")
 buttonNo.addEventListener("mouseenter", funcionNo);
 function funcionNo(){
@@ -17,5 +9,12 @@ function funcionNo(){
     buttonNo.style.top = `${numVertical}px`;
     buttonNo.style.left = `${numHorizontal}px`;
 
+}
+
+const buttonSi = document.getElementById("buttonSi");
+buttonSi.addEventListener("click", funcionSi);
+function funcionSi(){
+    feliction.style.display = "flex";
+    buttonNo.style.display = "none";
 }
 
