@@ -1,0 +1,63 @@
+*{
+    text-align: center;
+}
+
+.eleccion{
+    display: flex;
+    justify-content: center;
+}
+.divisionSi{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divisionNo{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttonSi{
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
+    position: absolute;
+}
+#buttonNo{
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
+    position: absolute;
+}
+
+#feliction{
+    display: none;
+    width: 100%;
+    justify-content: center;
+}
+
+#feliction div{
+    background: beige;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+}
+#feliction h1{
+    position: absolute;
+    margin: 10px;
+    color: antiquewhite;
+    background: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+#feliction img{
+    width: 100%;
+}
+.esconder{
+    display: none;
+}
